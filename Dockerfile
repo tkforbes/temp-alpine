@@ -1,4 +1,4 @@
-FROM alpine:latest
+FROM ubuntu:latest
 RUN apk update
 RUN apk add vim
-CMD [“echo”, "hello"]
+CMD [“echo”, “Hello World”]
